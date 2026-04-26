@@ -121,14 +121,16 @@ Result:
 ![Ping Ubuntu to Kali](../screenshots/ping-ubuntu-to-kali.png)
 
 ---
-### 7. Implemented Persistent IP Configuration (Kali)
+### 7. Implemented Persistent IP Configuration (Kali and Ubuntu)
 
 The initial IP assignment using the `ip addr add` command was temporary and did not persist after a reboot.
 
 To ensure a consistent network configuration, a persistent static IP was configured.
+The same persistence concept applies across Linux systems. While Kali required manual configuration via `/etc/network/interfaces`, Ubuntu was configured using NetworkManager through the GUI, which automatically persists settings across reboots.
 
-### Configuration file edited as below in Nano Network Interfaces
-![Nano Network Interface](../screenshots/kali static IP config.png)
+Confirmed that both systems retained their assigned static IP addresses after reboot.
+### Configuration file edited in Nano to ensure static IP persists after reboot.
+![Nano Network Interface](../screenshots/kali-static-IP-config.png)
 
 
 
