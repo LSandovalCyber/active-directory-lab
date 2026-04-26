@@ -68,7 +68,7 @@ sudo ip link set eth0 up
 
 ## 📸 Screenshots
 
-(Add screenshots here showing IP config and ping results)
+
 
 ---
 
