@@ -128,7 +128,7 @@ The initial IP assignment using the `ip addr add` command was temporary and did 
 To ensure a consistent network configuration, a persistent static IP was configured.
 
 ### Configuration file edited as below in Nano Network Interfaces
-![Nano Network Interface]
+![Nano Network Interface](../screenshots/kali static IP config.png)
 
 
 
