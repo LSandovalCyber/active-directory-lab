@@ -110,11 +110,11 @@ Result:
 
 ### Kali Static IP Assigned
 
-![Kali IP Success](../screenshots/kali-ip-success.png)
+![Kali IP Success](../screenshots/kali-add-ip.png)
 
 ### Kali → Ubuntu Ping
 
-![Ping Kali to Ubuntu](../screenshots/ping-kali-to-ubuntu.png)
+![Ping Kali to Ubuntu](../screenshots/kali ping ubuntu sucess.png)
 
 ### Ubuntu → Kali Ping
 
