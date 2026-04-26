@@ -121,6 +121,16 @@ Result:
 ![Ping Ubuntu to Kali](../screenshots/ping-ubuntu-to-kali.png)
 
 ---
+### 7. Implemented Persistent IP Configuration (Kali)
+
+The initial IP assignment using the `ip addr add` command was temporary and did not persist after a reboot.
+
+To ensure a consistent network configuration, a persistent static IP was configured.
+
+### Configuration file edited as below in Nano Network Interfaces
+![Nano Network Interface]
+
+
 
 ## Key Takeaways
 
