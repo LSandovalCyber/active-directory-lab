@@ -114,11 +114,11 @@ Result:
 
 ### Kali → Ubuntu Ping
 
-![Ping Kali to Ubuntu](../screenshots/kali ping ubuntu sucess.png)
+![Ping Kali to Ubuntu](../screenshots/ping-kali-to-ubuntu.png)
 
 ### Ubuntu → Kali Ping
 
-![Ping Ubuntu to Kali](../screenshots/ping Ubuntu to Kali.png)
+![Ping Ubuntu to Kali](../screenshots/ping-ubuntu-to-kali.png)
 
 ---
 
