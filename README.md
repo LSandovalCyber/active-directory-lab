@@ -31,8 +31,11 @@ The lab is designed to simulate a basic corporate network for practicing:
 
 ## 🎯 Objectives
 
-* Build a multi-machine virtual lab environment
-* Configure static IP addressing
+* Build a fully functional Active Directory domain environment
+* Configure static IP addressing and DNS resolution
+* Join a Windows 10 client machine to the domain
+* Validate domain authentication using Active Directory credentials
+* Establish a foundation for centralized logging and security monitoring
 * Establish network communication between systems
 * Prepare the environment for Active Directory deployment and security testing
 
@@ -62,9 +65,11 @@ sudo ip link set eth0 up
 
 ## 🧪 Validation
 
-✔ Kali → Ubuntu communication successful
-✔ Ubuntu → Windows Server communication successful
-✔ Kali → Windows Server communication successful
+✔ Successful network connectivity between all systems
+✔ Windows 10 client successfully joined the domain
+✔ Domain authentication confirmed using LAB\labuser
+✔ DNS resolution verified between client and Domain Controller
+✔ Communication confirmed via: ping 192.168.100.5
 
 ---
 
@@ -89,10 +94,12 @@ sudo ip link set eth0 up
 * [x] Virtual machines deployed
 * [x] Network configured (static IPs)
 * [x] Connectivity verified
-* [ ] Active Directory Domain Services (AD DS) setup
-* [ ] Domain user and group management
-* [ ] Domain join (client machines)
+* [x] Active Directory Domain Services (AD DS) setup
+* [x] Domain user and group management
+* [x] Domain join-Windows 10 joined (client machines)
 * [ ] Security testing and enumeration (Kali Linux)
+* [ ] Log analysis (Event Viewer/Splunk)
+* [ ] SIEM integration (Splunk)
 
 ---
 
