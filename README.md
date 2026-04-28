@@ -17,13 +17,15 @@ The lab is designed to simulate a basic corporate network for practicing:
 
 | System              | Role              | IP Address    |
 | ------------------- | ----------------- | ------------- |
-| Windows Server 2022 | Domain Controller | 192.168.56.10 |
-| Ubuntu Linux        | Client Machine    | 192.168.56.20 |
+| Windows Server 2022 | Domain Controller (DC) | 192.168.56.10 |
+| Windows 10 Client   | Domain-joined Machine | 192.168.100.10
+| Ubuntu Linux        | SIEM (Splunk - planned)    | 192.168.56.20 |
 | Kali Linux          | Security Testing  | 192.168.56.30 |
 
 * **Platform:** VirtualBox
 * **Network Type:** Internal Network (Isolated)
 * **Subnet:** 192.168.56.0/24
+* **Additional Network**: NAT (Ubuntu only for internet access)
 
 ---
 
@@ -104,6 +106,12 @@ sudo ip link set eth0 up
 ---
 
 ## 🧠 Key Takeaway
+* Built and deployed a fully functional Active Directory domain environment
+* Understood the critical role of DNS in domain-based authentication
+* Configured and troubleshot static IP addressing in an isolated lab network
+* Successfully joined a client machine to a domain and validated authentication
+* Implemented a segmented lab design using Internal Network (LABNET) and NAT
+* Gained hands-on experience diagnosing network issues such as APIPA addressing and DNS misconfiguration
+* Established a foundation for SIEM integration and security monitoring
 
-This lab demonstrates the foundational skills required to build and troubleshoot a networked environment, which is critical for IT support and cybersecurity roles.
 
