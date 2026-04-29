@@ -21,7 +21,7 @@ The goal is to demonstrate practical skills across:
 * Validated domain authentication
 
 📁 View Project:
-lab-1-network-setup/
+[View project](lab-1-network-setup/)
 
 ---
 
