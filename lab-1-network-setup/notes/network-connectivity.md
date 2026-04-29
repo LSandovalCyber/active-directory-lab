@@ -130,7 +130,7 @@ The same persistence concept applies across Linux systems. While Kali required m
 
 Confirmed that both systems retained their assigned static IP addresses after reboot.
 ### Configuration file edited in Nano to ensure static IP persists after reboot.
-![Nano Network Interface](../screenshots/kali-static-IP-config.png)
+![Nano Network Interface](../screenshots/03-kali-static-IP-config.png)
 
 
 
