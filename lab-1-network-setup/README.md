@@ -97,9 +97,7 @@ sudo ip link set eth0 up
 * [x] Active Directory Domain Services (AD DS) setup
 * [x] Domain user and group management
 * [x] Domain join-Windows 10 joined (client machines)
-* [ ] Security testing and enumeration (Kali Linux)
-* [ ] Log analysis (Event Viewer/Splunk)
-* [ ] SIEM integration (Splunk)
+* [x] Domain authentication validated
 
 ---
 
@@ -108,7 +106,7 @@ sudo ip link set eth0 up
 * Install and configure Active Directory Domain Services
 * Promote Windows Server to Domain Controller
 * Join Ubuntu/Windows clients to the domain
-* Perform enumeration using Kali Linux tools
+
 
 ---
 
