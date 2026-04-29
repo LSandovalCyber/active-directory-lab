@@ -1,0 +1,66 @@
+# Active Directory & Domain Integration Notes
+
+## 🧱 Domain Controller Setup
+
+* Installed Active Directory Domain Services (AD DS)
+* Promoted Windows Server 2022 to Domain Controller
+* Created domain:
+
+```plaintext id="1z1b9o"
+lab.local
+```
+
+## 👤 User & Organizational Unit
+
+* Created Organizational Unit (OU) for structure
+* Created domain user:
+
+```plaintext id="k6w0mc"
+labuser
+```
+
+## 💻 Client Configuration (Windows 10)
+
+* Renamed machine:
+
+```plaintext id="f0q9zn"
+WIN10-CLIENT
+```
+
+* Configured static IP and DNS:
+
+```plaintext id="9m6v9z"
+IP: 192.168.100.10
+DNS: 192.168.100.5
+```
+
+## 🌐 Domain Join Process
+
+* Joined Windows 10 client to:
+
+```plaintext id="0ppl3k"
+lab.local
+```
+
+* Authentication performed using:
+
+```plaintext id="hw0g4u"
+LAB\labuser
+```
+
+## 🧪 Validation
+
+* Confirmed domain join via "Welcome to lab.local" message
+* Verified domain login from Windows 10 client
+* Tested network connectivity:
+
+```cmd id="q7r3cf"
+ping 192.168.100.5
+```
+
+## 🧠 Key Learning Points
+
+* DNS is critical for Active Directory functionality
+* Static IP configuration is required in isolated environments
+* Domain Controllers act as both authentication and DNS servers
+* Successful domain join depends on proper network communication
