@@ -65,11 +65,11 @@ sudo ip link set eth0 up
 
 ## 🧪 Validation
 
-✔ Successful network connectivity between all systems
-✔ Windows 10 client successfully joined the domain
-✔ Domain authentication confirmed using LAB\labuser
-✔ DNS resolution verified between client and Domain Controller
-✔ Communication confirmed via: ping 192.168.100.5
+✔ Successful network connectivity between all systems  
+✔ Windows 10 client successfully joined the domain  
+✔ Domain authentication confirmed using LAB\labuser  
+✔ DNS resolution verified between client and Domain Controller  
+✔ Communication confirmed via: ping 192.168.100.5  
 
 ---
 
