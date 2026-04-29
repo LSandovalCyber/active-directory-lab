@@ -110,15 +110,15 @@ Result:
 
 ### Kali Static IP Assigned
 
-![Kali IP Success](screenshots/01-kali-add-ip.png)
+![Kali IP Success](../screenshots/01-kali-add-ip.png)
 
 ### Kali → Ubuntu Ping
 
-![Ping Kali to Ubuntu](screenshots/04-ping-kali-to-ubuntu.png)
+![Ping Kali to Ubuntu](../screenshots/04-ping-kali-to-ubuntu.png)
 
 ### Ubuntu → Kali Ping
 
-![Ping Ubuntu to Kali](screenshots/05-ping-ubuntu-to-kali.png)
+![Ping Ubuntu to Kali](../screenshots/05-ping-ubuntu-to-kali.png)
 
 ---
 ### 7. Implemented Persistent IP Configuration (Kali and Ubuntu)
