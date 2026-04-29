@@ -90,6 +90,8 @@ sudo ip link set eth0 up
 ![Domain Login](screenshots/14-domain-user-login.png)
 *Authenticated using LAB\labuser*
 
+Additional screenshots available in the /screenshots directory.
+
 
 ---
 
