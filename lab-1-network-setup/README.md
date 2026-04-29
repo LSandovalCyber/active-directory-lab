@@ -75,6 +75,20 @@ sudo ip link set eth0 up
 
 ## 📸 Screenshots
 
+![Static IP](screenshots/03-kali-static-ip-config.png)
+*Configured static IP for internal network communication*
+
+![Ping Test](screenshots/04-ping-kali-to-ubuntu.png)
+*Verified connectivity between systems*
+
+![Active Directory](screenshots/09-ad-domain-lab.png)
+*Domain lab.local configured in Active Directory*
+
+![Domain Join](screenshots/12-domain-join-success.png)
+*Windows 10 successfully joined to domain*
+
+![Domain Login](screenshots/14-domain-user-login.png)
+*Authenticated using LAB\labuser*
 
 
 ---
